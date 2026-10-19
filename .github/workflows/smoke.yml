@@ -1,0 +1,11 @@
+name: Smoke
+
+on:
+  push
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo checkpoint
+        run: echo "SMOKE-DRILL-CHECKPOINT"
